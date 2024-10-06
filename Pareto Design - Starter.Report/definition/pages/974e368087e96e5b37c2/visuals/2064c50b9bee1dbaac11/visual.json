@@ -1,16 +1,16 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.2.0/schema.json",
-  "name": "ab8b5e4722eb465819da",
+  "name": "2064c50b9bee1dbaac11",
   "position": {
     "x": 100.67415730337078,
     "y": 221.12359550561797,
-    "z": 5001,
-    "height": 408.08988764044943,
-    "width": 933.03370786516848,
-    "tabOrder": 5001
+    "z": 4001,
+    "height": 505.16853932584269,
+    "width": 1283.5955056179776,
+    "tabOrder": 4001
   },
   "visual": {
-    "visualType": "lineClusteredColumnComboChart",
+    "visualType": "hundredPercentStackedBarChart",
     "query": {
       "queryState": {
         "Category": {
@@ -27,12 +27,12 @@
                 }
               },
               "queryRef": "_Customer&Others Table.Customer",
-              "nativeQueryRef": "Customer1",
+              "nativeQueryRef": "Customer",
               "active": true
             }
           ]
         },
-        "Y2": {
+        "Y": {
           "projections": [
             {
               "field": {
@@ -51,7 +51,7 @@
                 }
               },
               "queryRef": "Sum(Data.Rev (mUSD))",
-              "nativeQueryRef": "Rev (mUSD)"
+              "nativeQueryRef": "Sum of Rev (mUSD)"
             }
           ]
         }
