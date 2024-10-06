@@ -582,7 +582,7 @@ table Data
 		mode: import
 		source =
 				let
-				    Source = Csv.Document(File.Contents("D:\MY DATA\Desktop\Portfolio Website Source Code\powerBIVersioncotrol_06_10\Data.csv"),[Delimiter=","]),
+				    Source = Csv.Document(File.Contents("D:\MY DATA\Desktop\Portfolio Website Source Code\powerBIVersioncotrol_06_10\Workspace Location\Data.csv"),[Delimiter=","]),
 				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
 				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Customer", type text}, {"Rev (mUSD)", type number}})
 				in
