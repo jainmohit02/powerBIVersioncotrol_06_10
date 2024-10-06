@@ -6,11 +6,11 @@
     "y": 221.12359550561797,
     "z": 4001,
     "height": 505.16853932584269,
-    "width": 1283.5955056179776,
+    "width": 1567.6404494382023,
     "tabOrder": 4001
   },
   "visual": {
-    "visualType": "hundredPercentStackedBarChart",
+    "visualType": "lineChart",
     "query": {
       "queryState": {
         "Category": {
