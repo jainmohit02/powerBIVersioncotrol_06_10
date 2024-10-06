@@ -5,12 +5,12 @@
     "x": 100.67415730337078,
     "y": 221.12359550561797,
     "z": 4001,
-    "height": 505.16853932584269,
-    "width": 1567.6404494382023,
+    "height": 774.83146067415726,
+    "width": 992.35955056179773,
     "tabOrder": 4001
   },
   "visual": {
-    "visualType": "lineChart",
+    "visualType": "clusteredBarChart",
     "query": {
       "queryState": {
         "Category": {
