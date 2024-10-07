@@ -1,0 +1,18 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "1.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "data.column_cutoff_revenue_": {
+			      "Binding": {
+			        "ConceptualEntity": "Data",
+			        "ConceptualProperty": "_1 Cutoff Revenue %"
+			      },
+			      "State": "Generated"
+			    }
+			  }
+			}
+		contentType: json
+
